@@ -1,0 +1,192 @@
+body{
+    background-color: #ededed !important;
+}
+header{
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    opacity: .9;
+}
+header .row{
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+header img{
+    width: 9em;
+}
+header nav a{
+    color: #fff !important;
+    font-family: roboto;
+    font-weight: 300;
+    text-decoration: none !important;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1.5em 1.5em 1.3em;
+    transition: .3s;
+}
+header nav a:hover{
+    background-color: #5eb6ff;
+}
+header nav a:nth-child(1){
+    border-bottom: 4px solid #5eb6ff;
+}
+header nav a:nth-child(2):hover,header nav a:nth-child(3):hover{
+    border-bottom: 4px solid #5eb6ff;
+}
+.jumbotron{
+    background-image: url(../Icon/MainBG.jpg);
+    background-size: cover;
+    box-shadow: 0 0 9px #000;
+    margin: 0 !important;
+}
+.loginBox,.signBox{
+    background-color: rgba(2,2,2,.65);
+    display: flex;
+    justify-content: center;
+}
+.loginBox h4,.signBox h4{
+    color: #fff;
+    font-family: Raleway;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: .3em;
+    margin-bottom: .2em;
+    margin-top: 1em;
+    border-bottom: 1px solid #fff;
+}
+.loginBox p,.signBox p{
+    font-family: roboto;
+    font-size: 1.2em !important;
+    font-weight: 100;
+    margin-bottom: .4em !important;
+    margin-top: .3em;
+    color: #fff;
+}
+.loginBox input[type=email],.loginBox input[type=password],.signBox input[type=email],.signBox input[type=password],.signBox input[type=text]{
+    border: 4px solid #99c3ff;
+    border-radius: 1em;
+    padding-left: .6em;
+    line-height: 0;
+    width: 20em;
+    outline: none;
+    transition: .5s;
+}
+.loginBox input:focus,.signBox input:focus{
+    border-color: #006aff;
+    background-color: #fdffdb;
+}
+.loginBox input:hover,.signBox input:hover{
+    background-color: #fdffdb;
+}
+.loginBox a{
+    display: block;
+    width: 40%;
+    margin: .4em;
+    color:#d1d1d1;
+    font-family: roboto;
+    font-size: .9em;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.loginBox a:hover{
+    color:#fff;
+}
+.loginBox button,.signBox button{
+    color: #fff;
+    background-color: #0065f4;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: .4em 3em .4em;
+    border-radius: 10em;
+    border:3px solid #007fff;
+    border-style: outset;
+    transition: .5s;
+    outline: none;
+}
+.loginBox button:hover,.signBox button:hover{
+    background-color: #0adb00;
+    border-color: #05ff4b;
+}
+.loginBox button:active,.signBox button:active{
+    background-color: #0adb00;
+    border-color: #05ff4b;
+    border-style: inset;
+}
+.signBox p:nth-child(1){
+    margin: .4em  0 0!important;
+}
+.signBox h6{
+    color: #fff;
+    font-family: roboto;
+    font-weight: 300;
+    display: inline-block!important;
+    margin: .7em 4.4em .4em .2em
+}
+.signBox select{
+    margin: 0 2.3em .3em .15em
+}
+.signBox h5{
+    width: 20em;
+    text-align: justify;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 100;
+    margin: 1em 0 1.5em;
+}
+.helpHeader{
+    margin:1em 0;
+    font-family: raleway;
+    font-size: 2em;
+    font-weight: 100;
+}
+footer{
+    background-color: #383838;
+}
+footer ul{
+    list-style: none;
+    margin-top: .7em;
+}
+footer ul li{
+    color: #fff;
+    font-family: raleway;
+    display: inline-block;
+    margin-right: .1em;
+    padding: .7em 1em;
+    background-color: #7f7f7f;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+}
+footer ul li:hover{
+    background-color: #a8a8a8;
+}
+footer ul li:active{
+    border-top:solid;
+    border-left:solid;
+    border-width: 1.5px;
+    border-bottom: none;
+    border-right: none;
+}
+.socialIcons p{
+    color: #fff;
+    display: inline-block;
+    line-height: 4em;
+    margin: 0;
+}
+footer h4{
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 1em;
+    color: #fff;
+    padding:1em;
+    margin: auto;
+}
+footer h4 span{
+    border-top: 1px solid;
+    padding: .7em 6%;
+}

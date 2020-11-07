@@ -1,0 +1,8 @@
+dungem.com Logo Settings=>
+
+Font-Family:Century Gothic
+Font-Style: Regular;
+Font-Size 40.3pt;
+aa:Sharp;
+color: #ffffff;
+background:Transparent;
